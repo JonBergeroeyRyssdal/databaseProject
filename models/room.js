@@ -9,5 +9,5 @@ module.exports = (sequelize, Sequelize) => {
         Room.belongsTo(models.Hotel)
         Room.belongsToMany(models.User, {through: models.Reservation})
     };
-    return Room
+	return Room
 }

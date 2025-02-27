@@ -6,9 +6,9 @@ module.exports = (sequelize, Sequelize) => {
                 min: 1,
                 max: 5
             }
-        }
+        },
     },{
         timestamps: false
     });
-    return Rate
+	return Rate
 }

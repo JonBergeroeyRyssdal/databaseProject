@@ -6,5 +6,5 @@ module.exports = (sequelize, Sequelize) => {
         timestamps: false,
         hasTrigger: true
     });
-    return Reservation
+	return Reservation
 }
